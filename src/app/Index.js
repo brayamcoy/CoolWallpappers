@@ -84,8 +84,7 @@ export default function ViewWallpappers() {
                 cropHeight={Dimensions.get("window").height}
                 imageWidth={width}
                 imageHeight={height}
-                // pinchToZoom={true}
-                // panToMove={true}
+                pinchToZoom={true}
               >
                 <Image
                   source={{ uri: item.src.portrait }}
