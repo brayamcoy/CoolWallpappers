@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "coolwallpappers",
-    "slug": "coolwallpappers",
+    "name": "Cool Wallpappers",
+    "slug": "CoolWallpappers",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -24,7 +24,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.brayamcoy.coolwallpappers"
+      "package": "com.bdapps.coolwallpappers"
     },
     "web": {
       "favicon": "./assets/favicon.png"

@@ -59,7 +59,16 @@ export default function ViewWallpappers() {
   }, []);
 
   if (!images) {
-    return <Text>Loading!</Text>;
+  return (
+    <Image
+      source={require("../../assets/loading.png")}
+      style={{
+        flex: 1,
+        width: "100%",
+        height: "100%",
+      }}
+    />
+  );
   }
 
   return (
@@ -79,18 +88,18 @@ export default function ViewWallpappers() {
         renderItem={({ item }) => {
           return (
             <View style={{ width, height }}>
-              <ImageZoom
+              {/* <ImageZoom
                 cropWidth={Dimensions.get("window").width}
                 cropHeight={Dimensions.get("window").height}
                 imageWidth={width}
                 imageHeight={height}
                 pinchToZoom={true}
-              >
+              > */}
                 <Image
                   source={{ uri: item.src.portrait }}
                   style={StyleSheet.absoluteFillObject}
                 />
-              </ImageZoom>
+              {/* </ImageZoom> */}
             </View>
           );
         }}
