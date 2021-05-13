@@ -14,4 +14,4 @@ Creation of a wallpaper gallery application, created with React Native, making u
 yarn install && yarn start
 || expo start
 
-![Alt text](relative/path/to/preview.jpg?raw=true "Title")
+[preview.jpg](https://github.com/brayamcoy/CoolWallpappers/blob/main/assets/preview.jpg)
