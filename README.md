@@ -11,5 +11,5 @@ Creation of a wallpaper gallery application, created with React Native, making u
 
 ## Init project
 
-yarn start
+yarn install && yarn start
 || expo start
