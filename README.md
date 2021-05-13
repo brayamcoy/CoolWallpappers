@@ -14,6 +14,4 @@ Creation of a wallpaper gallery application, created with React Native, making u
 yarn install && yarn start
 || expo start
 
-<img src="https://drive.google.com/file/d/1CelmHcP1ErYdI7lMa8YmnkNGVUkPVAsW/view?usp=sharing"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+<iframe src="https://drive.google.com/file/d/1CelmHcP1ErYdI7lMa8YmnkNGVUkPVAsW/preview" width="640" height="480"></iframe>
