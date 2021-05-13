@@ -14,4 +14,4 @@ Creation of a wallpaper gallery application, created with React Native, making u
 yarn install && yarn start
 || expo start
 
-<iframe src="https://drive.google.com/file/d/1CelmHcP1ErYdI7lMa8YmnkNGVUkPVAsW/preview" width="640" height="480"></iframe>
+![Alt text](relative/path/to/preview.jpg?raw=true "Title")
